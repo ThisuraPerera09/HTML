@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,12 +8,14 @@
     <title>HOME</title>
     <link rel="stylesheet" href="css/stylet.css">
     <link rel="stylesheet" href="css/stylesSatha.css">
+    <link rel="stylesheet" href="css/styleCharith.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;500;700&display=swap" rel="stylesheet">
-</head> 
+</head>
+
 <body>
-    <section class = "header">
+    <section class="header">
         <nav>
             <a href="home.html"><img src="images/logo.png" alt="logo"></a>
             <div class="nav-links">
@@ -24,22 +27,92 @@
         </nav>
     </section>
 
-    <br><br><br><br><br>
-    <section >
+    <br><br>
+    <div id="satha">
 
         <div class="homes">
             <img id="hero" src="images/hero.jpg" alt="hero image on right">
-      
-        <p style="font-size:70px">HOME</p>
 
-        <p style="font-size: 20px ">HTML markup consist of several key components, including those called tags(and their attributes), 
-          character-based data types, character references and entity references. HTML tags most commonly come in paores like 
-          <span class="tag-highlighted">&lt;<b>h1</b>&gt;</span> and <span class="tag-highlighted">&lt;<b>/h1</b>&gt;</span>,
-          although some recodesent empty elements and so are unpaired, for example 
-          <span class="tag-highlighted">&lt;<b>img</b>&gt;. The first tag in such a pair is the start tag,
-          and the second is end tag(they aslo called <i> opening tags</i>)and <i>closing tags</i>). </p>
-        <a id = "button" href="why HTML.html" target="_blank"> <b>Why HTML?</b></a>
-      </div>
-    </section>   
+            <p style="font-size:70px">HOME</p>
+
+            <p style="font-size: 20px ">HTML markup consist of several key components, including those called tags(and
+                their attributes),
+                character-based data types, character references and entity references. HTML tags most commonly come in
+                paores like
+                <span class="tag-highlighted">&lt;<b>h1</b>&gt;</span> and <span
+                    class="tag-highlighted">&lt;<b>/h1</b>&gt;</span>,
+                although some recodesent empty elements and so are unpaired, for example
+                <span class="tag-highlighted">&lt;<b>img</b>&gt;. The first tag in such a pair is the start tag,
+                    and the second is end tag(they aslo called <i> opening tags</i>)and <i>closing tags</i>).
+            </p>
+            <a id="button" href="why HTML.html" target="_blank"> <b>Why HTML?</b></a>
+        </div>
+    </div>
+
+    <section>
+
+        <div id="charith">
+            <div id="center">
+                <p style="font-size: 22px; margin-bottom:0px;"><strong>Sample Table</strong></p>
+                Following Table uses <mark>colspan</mark> and <mark>rowspan</mark> attributes inside
+                <mark><strong>&lt;td&gt;</strong></mark> to merge two or more cells<br>
+            </div>
+            <div>
+                <table id="table1">
+                    <thead>
+                        <tr>
+                            <th></th>
+                            <th>First Year</th>
+                            <th>Second Year</th>
+                            <th>Third Year</th>
+                            <th>Fourth Year</th>
+                        </tr>
+                    </thead>
+
+                    <tbody>
+                        <tr>
+                            <td>8.00 a.m. - 10.00 a.m.</td>
+                            <td>Data Structures & Algorithms</td>
+                            <td>Software Engineering</td>
+                            <td>Mobile Application Development</td>
+                            <td>Parallel computing</td>
+                        </tr>
+                        <tr>
+                            <td>10.00 a.m. - 12.00 a.m.</td>
+                            <td>Database</td>
+                            <td>Functional Programming</td>
+                            <td>Machine Learning</td>
+                            <td>Computational Biology</td>
+                        </tr>
+                        <tr>
+                            <td>12.00 a.m. - 1.00 p.m.</td>
+                            <td style="text-align: center;" colspan="4">Interval</td>
+                        </tr>
+                        <tr>
+                            <td>1.00 p.m. - 3.00 p.m.</td>
+                            <td>Mathematics</td>
+                            <td rowspan="2">
+                                Group Project<br>
+                                <ul style="margin:1px; list-style-type:disc;">
+                                    <li>Previous Progress</li>
+                                    <li>Plan for next week</li>
+                                </ul>
+                            </td>
+                            <td>Game Development</td>
+                            <td>Cognitive Robotics</td>
+                        </tr>
+                        <tr>
+                            <td>3.00 p.m. - 5.00 p.m.</td>
+                            <td>Programming Using C</td>
+                            <td>Management</td>
+                            <td>Philosophy of science</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+    </section>
+    </div>
+    <br><br>
 </body>
+
 </html>
