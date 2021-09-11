@@ -8,6 +8,7 @@
     <title>Why HTML</title>
     <link rel="stylesheet" href="css/stylet.css">
     <link rel="stylesheet" href="css/stylen.css">
+    <link rel="stylesheet" href="css/styleThisura.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;500;700&display=swap" rel="stylesheet">
@@ -26,7 +27,7 @@
         </nav>
 
         <!--neethmadhu part starts here  -->
-        <section>
+        <div id="neeth">
 
 
             <div id="left-part">
@@ -91,19 +92,66 @@
 
                 </p>
             </div>
-            </div>
-        </section>
+        </div>
+
+        </div>
 
         <!--neethmadhu part ends here  -->
 
         <!--thisura part start here  -->
-        </b>
-        <section id = "thisura">
-            <div id="form">
-                <p>this should be displayed after the neeths part</p>
+        <div id="thisura">
 
-            </div>
-        </section>
+            <h1 align="left">&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Sample Form
+            </h1>
+                <div class="register">
+                    <form>
+                        Name:&nbsp;
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input
+                            type="text" id="username" name="username"><br>
+                        <br>
+                        E-mail:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        <input type="mail" id="mail" name="email" placeholder="Email Address" pattern="{}"><br /><br>
+                        Gender:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        <input type="radio" id="male" name="gender" value="male">
+                        <label for="male">Male</label>
+                        <input type="radio" id="female" name="gender" value="female">
+                        <label for="female">Female</label><br><br>
+
+                        Acedamic year: &nbsp; <select id="year" name="year">
+                            <option>Select from list</option>
+                            <option value="2014">2014</option>
+                            <option value="2015">2015</option>
+                            <option value="2016">2016</option>
+                            <option value="2017">2017</option>
+                            <option value="2018">2018</option>
+                            <option value="2019">2019</option>
+                            <option value="2020">2020</option>
+                            <option value="2021">2021</option>
+                        </select><br><br>
+
+
+                        Familiar in:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <input type="checkbox" id="HTML"
+                            name="HTML" value="html">
+                        <label for="html"> HTML</label>
+                        <input type="checkbox" id="CSS" name="CSS" value="css">
+                        <label for="css"> CSS</label>
+                        <input type="checkbox" id="JS" name="JS" value="js">
+                        <label for="js"> JS</label><br><br>
+
+                        Comment:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+                        <textarea rows="8" cols="40" placeholder="Your feedback"></textarea>
+                        <br><br>
+
+
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        <input type="submit" id="submitbutton" value="submit">
+                        <input type="reset" id="reset" value="reset">
+            
+            </form>
+        </div>
+        </div>
+
 
 </body>
 

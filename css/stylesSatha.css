@@ -1,0 +1,39 @@
+#hero{
+height :50%;
+width :50%;
+margin : 0px 50px;
+float:right;
+}
+
+.homes{
+    margin: 0px 30px;
+    position:absolute;
+    float:left;
+}
+
+#button:link, #button:visited {
+background-color: #FF8C42;
+color: black;
+font-size: 15px;
+padding: 15px 25px;
+text-align: center;
+display: inline-block;
+border-radius: 12px;
+text-decoration: none;
+}
+
+#button:hover, #button:active {
+    background-color: #FF312E ;
+    text-decoration: none;
+    color: white;
+}
+
+.tag-highlighted{
+    background-color: #f0f0f0c7;
+}
+
+p{ 
+    margin-top: 40px ;
+    margin-bottom: 40px ;
+}
+    
