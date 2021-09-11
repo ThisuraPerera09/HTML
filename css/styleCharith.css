@@ -1,10 +1,11 @@
 mark {
     background-color: #f2f2f2;
     color: black;
+    font-family: 'Roboto', sans-serif;
 }
 
 #center {
-    width: 70%;
+    width: 100%;
     margin-left: auto;
     margin-right: auto;
     padding-bottom: 20px;
@@ -34,6 +35,6 @@ mark {
 
 #table1 th {
     text-align: left;
-    background-color: #002672;
+    background-color: #4E598C;
     color: white;
 }
