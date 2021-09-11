@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <title>Why HTML</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- this is for responsive part-->
+        <link rel="stylesheet" href="css/style.css">                            <!-- my css file -->
+        <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">     <!-- recomended fonts -->
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap" rel="stylesheet"> <!-- source code pro -  for lilbit-bigger part-->
+    </head>
+
+    <body id="page2-body">  <!-- body id (had to change some setting cuz there is margin on top) -->
+        
+        
+        <div id="top-half"> <!--this is the top part of the webpage-->
+            <div id="menu-bar">  <!-- entire menu area is in this div-->
+                <img id="logo" src="images/logo.png" alt="noImage.png">  <!--change altnative img option  -->
+                <table id="menu-item" border="1">  <!--menu bar : replace with something better -->
+                    <tr><td class="table-data">HOME</td><td class="table-data">WHY HTML</td></tr>
+                </table>
+
+            </div>
+            <div id="left-part">  <!--this part includes the big image -->
+                <img id="imghtml" src="images/app.png" alt="noImage.png">
+            </div>
+            <div id="right-part">   <!-- this part is the text part -->
+                <h1 id="title">Why HTML?</h1>
+                <hr class="lines">
+                <p class="para-head">
+                    <span class="lilbit-bigger">HTML</span> (Following Paragraph is Left Aligned)
+                </p>
+                <hr class="lines">
+                <p class="para-head" id="p-left">
+                    HTML is responsible of giving a semantic meaning for your content.
+                    <br>
+                    For example :
+                </p>    
+                    <ol id="list-tags">
+                        <li>Here is a <span class="tag-highlighted">&lt;h5&gt;</span> <b>title</b> <span class="tag-highlighted">&lt;/h5&gt;</span></li>
+                        <li>Followed by a <span class="tag-highlighted">&lt;p&gt;</span> paragraph <span class="tag-highlighted">&lt;/p&gt;</span></li>
+                        <li>Then there's a footer [etc].</li>
+                    </ol>
+                <p class="para" id="p-left">
+                    Web browsers read it to display your content according to their importance (a title is bigger than a text
+                    a <span class="tag-highlighted">&lt;strong&gt;</span><strong> "strong" </strong> <span class="tag-highlighted">&lt;/strong&gt;</span> 
+                    text is more important than a single text, etc). 
+                    <span class="tag-highlighted">&lt;tt&gt;</span><tt> Crawlers </tt><span class="tag-highlighted">&lt;/tt&gt;</span> (like robots) use it 
+                    to identify what content is relevant to their 
+                    activity (i.e. google needs your page title to show it on his page).
+                </p>
+                
+                <hr class="lines">
+                <p class="para-head">
+                    <span class="lilbit-bigger">CSS</span> (Following Paragraph is Justified)
+                </p>
+                <hr class="lines">
+                <p class="para" id="p-justify">
+                    CSS gives a style to your application. It's fundementally destined to the user. It allows to say <span id="red-text">
+                    "this text is red"</span>, <span class="tag-highlighted">"this block is 200px wide"</span>, etc. It's "basically" not used by crawlers but it has some importance (some robot avoid to 
+                    render a text if it's hidden for example) 
+                </p>
+
+                
+                 <hr class="lines">
+                <p class="para-head">
+                    <span class="lilbit-bigger">JavaScript</span> (Following Paragraph is Right Aligned)
+                </p>
+                <hr class="lines">
+                <p class="para" id="p-right">
+                    JavaScript, which is the only programming language of these 3, allows you to perform actions in real time (like showing 
+                    a dialog when the user click a button).
+
+                </p>
+
+            </div>
+        </div>
+        <div>
+            <p>sdfss</p>
+        </div>
+    </body>
+
+</html>

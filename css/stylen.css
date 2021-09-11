@@ -1,0 +1,112 @@
+#page2-body{
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.lines{
+    margin: 0.25rem;
+}
+
+.para-head{
+    margin: 0.25rem;
+}
+
+.para{
+    margin-top: 0.25rem;
+    margin-bottom: 1.855rem;
+}
+
+#title{
+    font-size: 300%;
+    font-weight: lighter;
+}
+
+
+#menu-bar{
+    background-color: #4E598C;
+    height: 75px;
+}
+
+#menu-item{
+    position: absolute;  
+    top: 5%;
+    right: 2%;
+}
+
+#logo{
+    position:relative;
+    height: 100%;
+    
+}
+
+#left-part{
+    width: 50%;
+    padding:7% 0% 7% 4%;
+    float: left;
+    position: absolute;
+}
+
+#imghtml{
+    width: 75%;
+    height: 75%;
+}
+
+#right-part{
+    width: 38%;
+    margin-top: 2%;
+    padding-right: 11%;
+    padding-left: 2%;
+    right: 0;
+    float: left;
+    position: absolute;
+}
+
+
+.lilbit-bigger{
+    font-family: 'Source Code Pro', monospace;
+    font-weight: bold;
+}
+
+.tag-highlighted{
+    background-color: #f0f0f0;
+}
+
+#list-tags{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+ol{
+    padding-right: 10px;
+}
+
+#p-left{
+    text-align: left;
+}
+
+#p-justify{
+    text-align: justify;
+}
+
+#p-right{
+    text-align: right;
+    padding-left: 28%;
+}
+
+#red-text{
+    color: rgb(218, 9, 9);
+}
+
+/* responsive part - changes the view then screen size is less than 800px */
+
+@media screen and (max-width: 800px){      
+    #left-part, #right-part {
+        position: relative;
+        width: 80%;
+        margin: auto;
+        padding: auto;
+        
+    }
+}
+
+

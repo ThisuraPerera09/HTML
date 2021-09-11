@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<style>
+	
+			
+
+#username{
+width:200px;
+height:20px;
+
+}		
+#mail{
+width:200px;
+height:20px;
+}	
+	
+.register{
+	font:Comic Sans;
+	color:black;
+	font-family :Optima;
+	font-size : 20px;
+	text-align:left;
+}
+
+
+.checked {
+  color: orange;
+}
+
+.html{
+text-align:center;
+}
+
+#comment{
+width:200px;
+height:250px;
+}
+
+#submitbutton{
+background-color:orange;
+}
+
+		
+		</style>
+		
+		<title> Sample Form </title>
+		<link rel = "stylesheet" type = "text/css" href = "styles/styles - new.css">
+		
+	</head>
+	<body>
+	
+	
+	
+
+       <h1  align="left">&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Sample Form</h1>
+	   <center>
+	    <div class="register">
+		    <form>
+			Name:&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" id="username" name="username" ><br>
+			<br>
+		    E-mail:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+			<input type="mail" id="mail" name="email" placeholder="Email Address" pattern="{}"><br/><br>
+			Gender:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+			<input type="radio" id="male" name="gender" value="male">
+			<label for="male">Male</label>
+			<input type="radio" id="female" name="gender" value="female">
+			<label for="female">Female</label><br><br>
+			
+		Acedamic year: &nbsp; <select id="year" name="year">
+    <option>Select from list</option>
+    <option value="2014">2014</option>
+    <option value="2015">2015</option>
+    <option value="2016">2016</option>
+    <option value="2017">2017</option>
+    <option value="2018">2018</option>
+    <option value="2019">2019</option>
+    <option value="2020">2020</option>
+    <option value="2021">2021</option>
+</select><br><br>
+
+			
+	       Familiar in:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <input type="checkbox" id="HTML" name="HTML" value="html">
+           <label for="html"> HTML</label>
+           <input type="checkbox" id="CSS" name="CSS" value="css">
+           <label for="css"> CSS</label>
+           <input type="checkbox" id="JS" name="JS" value="js">
+           <label for="js"> JS</label><br><br>
+
+			Comment:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+				
+            <textarea rows="8" cols="40" placeholder="Your feedback"></textarea>
+            <br><br>
+				
+		
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<input type="submit" id="submitbutton" value="submit">
+		<input type="reset" id="reset" value="reset">
+		</center>
+		</form>
+		</div>
+
+
+		
+
+
+	</body>
+</html>
