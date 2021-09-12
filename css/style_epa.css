@@ -95,5 +95,18 @@ nav-links ul li:hover {
     background-color: rgb(221, 162, 36);
     display:flex
 }
+@media screen and (max-width: 800px){      
+    .header,table1 {
+        position: relative;
+        width:auto;
+        margin: auto;
+        padding: auto;
+
+    }
+    #hometext{
+        font-size:14px;
+    }
+}
+
 
 
