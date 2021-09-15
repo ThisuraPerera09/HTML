@@ -1,35 +1,173 @@
+#thisura{
+	margin-top: 2%;
+	padding-bottom: 5%;
+    display: block;
+    position: relative;
+    float: left;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+}
+
 #username{
-width:200px;
-height:20px;
+	width:50%;
+	height:20px;
+	margin-left:30%;
+	margin-top: 1%;
+
 
 }		
 #mail{
-width:200px;
-height:20px;
+	width:50%;
+	height:20px;
+	margin-left:30%;
+	margin-top: 1%;
 }	
 	
 .register{
-	font:Comic Sans;
+	width: 35%;
 	color:black;
-	font-family :Optima;
-	font-size : 20px;
+	text-align:center;
+	margin: auto;
+}
+
+.labels{
+	position: absolute;
+	font-size: 15px;
+	text-align: left;
+	left: 35%;
+	padding-top: .3%;
+}
+
+.labels-mid{
+	font-size: 15px;
+}
+
+.table-left{
+	text-align: left;
+}
+
+.table-right{
+	text-align: right;
 }
 
 
-.checked {
-  color: orange;
+
+#male{
+	margin-left:40%;
+	margin-right:5px;
+	
 }
 
-.html{
-text-align:center;
+#female{
+	margin-left:15%;
+	margin-right:10px;
 }
+
+#year{
+	
+	width:50%;
+	height:25px;
+	margin-left:30%;
+	margin-top: 1%;
+	/* margin-right:70%; */
+}
+
+#HTML{
+	margin-left:40%;
+	margin-right:3px;
+	
+}
+
+#CSS{
+	
+	margin-left:5%;
+	margin-right:3px;
+}
+
+#JS{
+	margin-left:5%;
+	margin-right:3px;
+}
+
 
 #comment{
-width:200px;
-height:250px;
+	width:50%;
+	margin-left:30%;
+	margin-top: 1%;
+	height:220px;
+	margin-bottom: 1%;
+	
+
+
 }
 
 #submitbutton{
-background-color:orange;
+	background-color: #FF8C42;
+	width: 20%;
+	font-weight: bold;
+	color: black;
+	font-size: 12px;
+	padding: 10px 20px;
+	text-align: center;
+	display: inline-block;
+	border-radius: 12px;
+	border-width: 0;
+	text-decoration: none;
+	margin-left:40%;
+	margin-top: 1%;
+	margin-bottom: 1%;
 }
+
+#reset{
+	color: black;
+	width: 20%;
+	font-weight: bold;
+	font-size: 12px;
+	padding: 10px 20px;
+	text-align: center;
+	display: inline-block;
+	border-width: 0;
+	border-radius: 12px;
+	text-decoration: none;
+	margin-left:5%;
+	margin-top: 1%;
+	margin-bottom: 1%;
+}
+
+
+
+#form-heading{
+	text-align:center;
+	margin-bottom: 1%;
+    font-size: 175%;
+	font-weight: 400;
+
+}
+
+
+@media screen and (max-width: 800px){      
+    #thisura {
+        position: relative;
+        
+        width: 100%;
+        margin: auto;
+        padding: auto;
+        
+    }
+
+	.register{
+		width: 100%;
+		padding: auto;	
+	}
+
+	.labels{
+		position: absolute;
+		font-size: 16px;
+		text-align: left;
+		left: 5%;
+		padding-top: 1%;
+	}
+}
+
+
 
