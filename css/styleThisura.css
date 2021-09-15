@@ -116,6 +116,12 @@
 	margin-left:40%;
 	margin-top: 1%;
 	margin-bottom: 1%;
+	transition : 0.5s ease-in-out;
+}
+#submitbutton:hover{
+	color : white;
+	background-color : black;
+
 }
 
 #reset{
