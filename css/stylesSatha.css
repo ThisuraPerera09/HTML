@@ -1,12 +1,13 @@
 #hero{
 height :50%;
 width :50%;
-margin : 0px 50px;
+margin : 0px 10px;
 float:right;
+padding: 20px 40px;
 }
 
 .homes{
-    margin: 0px 30px;
+    margin: 2% 5%;
 }
 
 #button:link, #button:visited {
@@ -39,4 +40,26 @@ p{
 #hometext{
     font-size:70px;
     font-weight:lighter;
+}
+
+@media screen and (max-width: 800px){      
+    #hero{
+        position: relative;
+        padding-left: 12%;
+        padding-bottom: 5%;
+        width: 75%;
+        margin: auto;
+        float: none;    
+    }
+    #hometext{
+        margin-top: 20px;
+        text-align: center;
+    }
+    p{ 
+        margin-top: 20px ;
+        margin-bottom: 40px ;
+        text-align: justify;
+    }
+
+    
 }
